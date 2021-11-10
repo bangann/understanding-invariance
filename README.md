@@ -20,7 +20,7 @@ The randomly sampled R2N2 images used for computing sample covering numbers and 
 
 
 ## Estimation of sample covering  numbers
-To estimate the sample covering numbers of different data transformations, run the following script.
+To estimate the sample covering numbers of different data transformations, run the following script in /scn.
 ```
 CUDA_VISIBLE_DEVICES=0 python run_scn.py  --epsilon 3 --transformation crop --cover_number_method fast --data-path /path/to/dataset 
 ```
